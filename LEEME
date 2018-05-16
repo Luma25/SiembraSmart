@@ -1,0 +1,16 @@
+g1- Obten la llave publica.
+https://git-scm.com/book/es/v1/Git-en-un-servidor-Generando-tu-clave-p%C3%BAblica-SSH
+2- Agrega la llave publica ingresando en tu github al repositorio del caso_1 e ingresa a settings, luego a Deploy keys y agrega tu llave publica para que puedas realizar push(activa la opcion para que puedas hacer push).
+3- Ingresa a xamp a la carpeta httdocs y crea una carpeta para guardar el caso_1 y luego ingresa a ella desde la terminal.
+En la terminal ingresa estos comandos para terminar y realizar tu primer commit.
+git clone https://github.com/Luma25/SiembraSmart.git
+git init
+git add .
+git commit -m "my new commit"
+git remote add origin https://github.com/Luma25/SiembraSmart.git
+git push -u origin master
+4. Recuerda que para subir cambios siempre hay que hacer la sgte secuencia.
+git add .
+git pull
+git commit -m "los cambio que hice o lo que agregue"
+git push -u origin master
