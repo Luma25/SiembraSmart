@@ -1,0 +1,25 @@
+{
+  "name": "siembrasmart",
+  "version": "1.0.0",
+  "description": "app TICS 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luma25/SiembraSmart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luma25/SiembraSmart/issues"
+  },
+  "homepage": "https://github.com/Luma25/SiembraSmart#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0"
+  }
+}
